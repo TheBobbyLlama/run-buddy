@@ -35,6 +35,9 @@ body {
   header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   header a {
@@ -47,11 +50,9 @@ body {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
   }
 
   header nav {
-    float: right;
     margin: 7px 0;
   }
 
